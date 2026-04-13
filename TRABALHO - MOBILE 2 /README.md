@@ -15,7 +15,7 @@ O principal objetivo do sistema é aplicar, na prática, conceitos de Programaç
 
 ## 📋 Explicação das Classes Utilizadas
 
-LIVRO:
+📖 LIVRO:
 Responsável por representar um livro no sistema.
 
 Atributos:
@@ -27,7 +27,7 @@ Atributos:
 Função:
 Armazenar as informações de cada livro cadastrado.
 
-Biblioteca
+📚 BIBLIOTECA:
 Responsável por gerenciar os livros.
 
 Atributo:
@@ -39,7 +39,7 @@ Métodos:
 - atualizarLivro(): altera informações de um livro
 - removerLivro(): remove um livro da lista
 
-Main
+ℹ️ MAIN:
 Responsável pela execução do programa.
 
 Função:
