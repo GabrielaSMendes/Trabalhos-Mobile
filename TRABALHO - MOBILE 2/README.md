@@ -49,6 +49,14 @@ Função:
 
 ##   Instruções para Execução:
 
+Certifique-se de ter o Dart instalado na sua máquina
+dart --version
+Clone o repositório
+Acesse a pasta do projeto:
+cd projeto - 2
+Execute o programa:
+dart run projeto2.dart
+
 ##  Exemplos de uso:
 
 ##  Vídeo demonstrativo
