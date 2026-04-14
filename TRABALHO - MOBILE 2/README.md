@@ -51,6 +51,6 @@ Função:
 
 ##  Exemplos de uso:
 
-## 🎥 Vídeo demonstrativo
+##  Vídeo demonstrativo
 
 👉 [Coloque aqui o link]
