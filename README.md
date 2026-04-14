@@ -1,24 +1,27 @@
-TRABALHOS DE PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS - ADSIS 5 SEMESTRE
+#  Trabalhos de Programação para Dispositivos Móveis  
+ADSIS - 5º Semestre  
 
-Trabalho 1 - Configuração do Ambiente e Hello World em Dart.
+Este repositório contém os trabalhos desenvolvidos na disciplina de Programação para Dispositivos Móveis, utilizando Dart e Flutter.
 
-Trabalho 2 Mobile - CRUD de Biblioteca em Dart utilizando Orientação a Objetos.
+## 📂 Projetos
 
-Trabalho 3 Mobile - Aplicação de Calculadora em Flutter utilizando Componentização.
+-  Trabalho 1: Hello World em Dart (de caráter individual)
+-  Trabalho 2: CRUD de Biblioteca (POO)  
+-  Trabalho 3: Calculadora em Flutter  
+-  Trabalho 4: Lista de Tarefas com Gestão de Estado  
 
-Trabalho 4 Mobile - Aplicação de Lista de Tarefas com Gestão de Estado.
+Cada pasta contém seu próprio README com mais detalhes.
 
+## 👥 Integrantes
 
-INTEGRANTES DO GRUPO:
+- Caetano Mikulis  
+- Gabriela Souza Mendes  
+- Gustavo Takeda Kenzo  
+- Ryan do Vale  
+- Leonardo Sampaio  
 
-- Caetano Mikulis 
+## 🛠️ Tecnologias
 
-- Gabriela Souza Mendes
-
-- Gustavo Takeda Kenzo
-
-- Ryan do Vale
-
-- Leonardo Sampaio 
-
-
+- Dart  
+- Flutter  
+- Git/GitHub  
