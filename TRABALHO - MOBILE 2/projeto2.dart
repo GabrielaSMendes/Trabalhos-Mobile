@@ -124,7 +124,6 @@ int? lerInteiro(String mensagem) {
   final texto = lerEntrada(mensagem);
   return int.tryParse(texto);
 }
-
 void exibirMenu() {
   print('\n=== Sistema de Biblioteca ===');
   print('1 - Cadastrar livro');
@@ -153,10 +152,9 @@ void main() {
           print('\nDados invalidos. Tente novamente.');
           break;
         }
+
         if (!anoPublicacaoValido(ano)) {
-          print(
-            '\nAno de publicacao invalido. Informe um ano entre 1000 e ${DateTime.now().year + 1}.',
-          );
+          print('\nAno de publicacao invalido.');
           break;
         }
 
@@ -166,6 +164,7 @@ void main() {
           autor: autor,
           anoPublicacao: ano,
         );
+
         biblioteca.cadastrarLivro(livro);
         break;
 
@@ -175,31 +174,29 @@ void main() {
 
       case '3':
         final id = lerEntrada('Informe o ID do livro que deseja atualizar: ');
-        if (id.isEmpty) {
-          print('\nID invalido. Informe um identificador.');
-          break;
-        }
-        final livro = biblioteca.buscarLivroPorId(id);
 
+        final livro = biblioteca.buscarLivroPorId(id);
         if (livro == null) {
           print('\nLivro com ID $id nao encontrado.');
           break;
         }
 
         print('\nDeixe em branco para manter o valor atual.');
+
         final novoTitulo = lerEntrada('Novo titulo (${livro.titulo}): ');
         final novoAutor = lerEntrada('Novo autor (${livro.autor}): ');
         final novoAnoTexto = lerEntrada('Novo ano (${livro.anoPublicacao}): ');
 
-        final novoAno = novoAnoTexto.isEmpty ? null : int.tryParse(novoAnoTexto);
+        final novoAno =
+            novoAnoTexto.isEmpty ? null : int.tryParse(novoAnoTexto);
+
         if (novoAnoTexto.isNotEmpty && novoAno == null) {
           print('\nAno invalido. Atualizacao cancelada.');
           break;
         }
+
         if (novoAno != null && !anoPublicacaoValido(novoAno)) {
-          print(
-            '\nAno fora do intervalo permitido (1000 a ${DateTime.now().year + 1}). Atualizacao cancelada.',
-          );
+          print('\nAno fora do intervalo permitido.');
           break;
         }
 
