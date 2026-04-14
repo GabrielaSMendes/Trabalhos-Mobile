@@ -1,6 +1,6 @@
-##README — TRABALHO 2
+# README — TRABALHO 2
 
-# Trabalho 3 — Calculadora em Flutter
+## Trabalho 3 — Calculadora em Flutter
 
 ## 📌 Descrição do Sistema
 
