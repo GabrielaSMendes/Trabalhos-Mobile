@@ -73,6 +73,10 @@ O projeto foi dividido em widgets reutilizáveis para melhor organização e man
 
 ##  Imagens ou Prints da Interface:
 
+##  Vídeo demonstrativo
+
+👉 https://youtu.be/f-3sVN_dFE8
+
 ##  Como executar
 
 Pré-requisitos
