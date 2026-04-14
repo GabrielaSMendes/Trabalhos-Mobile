@@ -1,4 +1,4 @@
-# README — TRABALHO 2
+# README — TRABALHO 3
 
 ## Trabalho 3 — Calculadora em Flutter
 
