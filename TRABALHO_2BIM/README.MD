@@ -1,70 +1,12 @@
-# README — TRABALHO 2
+# Movie App
 
-## Trabalho 2 — CRUD de Biblioteca em Dart
+## Objetivo
 
-##  Descrição do Sistema
-Este sistema é uma aplicação simples desenvolvida em Dart, executada no terminal, que permite o gerenciamento de livros de uma biblioteca.
-O usuário interage com o programa por meio de um menu, podendo realizar operações básicas como cadastrar, listar, atualizar e remover livros. Essas funcionalidades caracterizam um CRUD (Create, Read, Update, Delete).
-O principal objetivo do sistema é aplicar, na prática, conceitos de Programação Orientada a Objetos (POO).
+Garantir uma aplicação fluida, com baixo consumo de recursos e preparada para crescimento e evolução.
 
-##  Funcionalidades
--  Cadastrar livros
--  Listar livros
--  Atualizar informações
--  Remover livros
+---
 
-##  Explicação das Classes Utilizadas
+## Melhorias aplicadas
 
- LIVRO:
-Responsável por representar um livro no sistema.
-
-Atributos:
-- titulo: nome do livro
-- autor: autor do livro
-- anoPublicacao: ano em que o livro foi publicado
-- id: identificador único do livro
-
-Função:
-Armazenar as informações de cada livro cadastrado.
-
- BIBLIOTECA:
-Responsável por gerenciar os livros.
-
-Atributo:
-- listaLivros: lista que armazena objetos do tipo Livro
-
-Métodos:
-- cadastrarLivro(): adiciona um novo livro
-- listarLivros(): exibe todos os livros cadastrados
-- atualizarLivro(): altera informações de um livro
-- removerLivro(): remove um livro da lista
-
- MAIN:
-Responsável pela execução do programa.
-
-Função:
-- Exibir o menu de opções
-- Receber dados do usuário
-- Chamar os métodos da classe Biblioteca
-
-##   Instruções para Execução:
-
-Certifique-se de ter o Dart instalado na sua máquina
-
-dart --version
-
-Clone o repositório
-
-Acesse a pasta do projeto:
-
-cd projeto - 2
-
-Execute o programa:
-
-dart run projeto2.dart
-
-##  Exemplos de uso:
-
-##  Vídeo demonstrativo
-
-👉 https://youtu.be/iCp6Va1puhY
+- Utilização de `ListView.builder` para renderização eficiente de listas
+- Otimização de performance na construção de widgets
